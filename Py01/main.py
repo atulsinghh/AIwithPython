@@ -12,5 +12,5 @@ Here is the questions to answer: {question}
 prompt = ChatMessagePromptTemplate(template)
 chain = prompt|model
 
-chain.invoke({"reviews":[], "question": What is the best Pizza place in town?"})
+chain.invoke({"reviews":[], "question":" What is the best Pizza place in town?"})
 
