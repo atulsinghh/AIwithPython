@@ -8,7 +8,7 @@ similar_chars = {'l', 'I', '1', 'O', '0'}
 syllables = ['ba', 'be', 'bi', 'bo', 'bu', 'ka', 'ke', 'ki', 'ko', 'ku',
              'ma', 'me', 'mi', 'mo', 'mu', 'ra', 're', 'ri', 'ro', 'ru',
              'ta', 'te', 'ti', 'to', 'tu', 'na', 'ne', 'ni', 'no', 'nu']
-
+ 
 def generate_password(min_length, numbers=True, special_characters=True,
                       avoid_similar=True, pronounceable=False):
     
