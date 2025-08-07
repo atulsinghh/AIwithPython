@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEndpoint
 
 llm = HuggingFaceEndpoint(
     repo_id="google/flan-t5-small",  # Replace with the desired model
-    huggingfacehub_api_token="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",  # Your HuggingFace API token
+    huggingfacehub_api_token="yourtoken",  # Your HuggingFace API token
     temperature=0.7,
     max_new_tokens=128
 )
